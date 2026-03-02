@@ -1,0 +1,20 @@
+Composition = “has-a” relationship.
+
+Instead of inheriting, one class contains another class as a field.
+
+👉 Car is not an Engine.
+👉 Car has an Engine.
+
+That’s composition.
+
+When to use it?
+
+When classes are part of something.
+
+When you want better flexibility than inheritance.
+
+Real world modeling (Car–Engine, House–Room, Computer–CPU).
+
+Short rule to remember:
+
+If it sounds like “A has a B” → Composition.
