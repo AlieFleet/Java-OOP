@@ -33,6 +33,11 @@ class Car {
         wana = new Warna();
         hp = new Engine();
     }
+       public Car(Engine ejin, Engine hp, Warna wana) {
+        this.ejin = ejin;
+        this.wana = wana;
+        this.hp = hp;
+    }
 
     void startCar() {
         ejin.start();
